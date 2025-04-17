@@ -52,14 +52,14 @@ return [
     | system used by the application. Typically, Eloquent is utilized.
     |
     | If you have multiple user tables or models you may configure multiple
-    | providers to represent the model / table. These providers may then
+    | Providers to represent the model / table. These Providers may then
     | be assigned to any extra authentication guards you have defined.
     |
     | Supported: "database", "eloquent"
     |
     */
 
-    'providers' => [
+    'Providers' => [
         'users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Models\User::class),
