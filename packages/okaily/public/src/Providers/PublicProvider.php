@@ -11,6 +11,7 @@ class PublicProvider extends ServiceProvider {
 
         $this->loadRoutesFrom(__DIR__ . "/../routes/web.php");
         $this->loadViewsFrom(__DIR__ . "/../resources/views", "public");
+        $this->loadMigrationsFrom(__DIR__ . "/../database/migrations");
 
         // public assets from my packages
         $this->publishes([
