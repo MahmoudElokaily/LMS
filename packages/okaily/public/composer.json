@@ -1,0 +1,16 @@
+{
+    "name": "elokaily/public",
+    "autoload": {
+        "psr-4": {
+            "Elokaily\\Public\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elokaily",
+            "email": "mahmoudelokaily3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

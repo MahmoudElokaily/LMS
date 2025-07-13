@@ -75,10 +75,14 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": {
-        "okaily/packages": {
+    "repositories": [
+        {
             "type": "path",
-            "url": "./packages/okaily/*"
+            "url": "./packages/okaily/*",
+            "options": {
+                "symlink": true
+            }
         }
-    }
+    ]
+
 }
